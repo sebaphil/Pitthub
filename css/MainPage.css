@@ -93,7 +93,7 @@ h1,h2,h3,h4,h5{ /*all titles*/
     font-size: 10.5px;
 }
 
-.navbar-default .nav li a:hover{ 
+.navbar-default .nav li a:hover{
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -114,48 +114,38 @@ h1,h2,h3,h4,h5{ /*all titles*/
     margin-bottom: 10%;
 }
 
-#title-caption-1{
-    position: relative;
-    right: 75px;
-}
-
-#title-caption-3{
-    position: relative;
-    left: 75px;
-}
-
 #news-box{
     height: auto;
     width: auto;
 }
 
-@media (max-width: 1920px) { 
-    
-    .carousel-caption h1{ 
+@media (max-width: 1920px) {
+
+    .carousel-caption h1{
         font-size: 120px;
         text-shadow: 1px 1px #000000;
-    } 
-    
+    }
+
     .carousel-caption p{
         font-size: 20px;
         text-shadow: 1px 1px #000000;
     }
-    
+
     #myDropdown{
-        
+
         border-top-left-radius: 15px;
         border-bottom-right-radius: 15px;
     }
-    
+
 }
 
 @media (max-width: 1280px) {
-    
+
     .carousel-caption h1{
         font-size: 80px;
         text-shadow: 1px 1px #000000;
     }
-    
+
     .carousel-caption p{
         font-size: 12px;
         text-shadow: 1px 1px #000000;
@@ -164,25 +154,25 @@ h1,h2,h3,h4,h5{ /*all titles*/
 }
 
 @media (min-width:1200px){
-    
+
     #mobile{
         display: none;
     }
-    
+
     .carousel-caption h1{
         font-size: 80px;
         text-shadow: 1px 1px #000000;
     }
-    
+
     .carousel-caption p{
         font-size: 12px;
         text-shadow: 1px 1px #000000;
     }
-    
+
     #dropdown-mob{
         display: none;
     }
-    
+
     #myDrop2 { /*scritta*/
         margin: auto;
         background-color: transparent;
@@ -196,20 +186,20 @@ h1,h2,h3,h4,h5{ /*all titles*/
         display: inline-block;
         text-decoration: none;
     }
-    
+
     .dropdown-content-form {
         background-color: #222;
         position: absolute;
         top: 40px;
-        right: 95px;
+        right: 100px;
         display: none;
-        height: 120px;
-        width: 150px;
+        height: 70px;
+        width: 105px;
         overflow: auto;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
-    
+
     .input-group a{
         position: relative;
         left: 15px;
@@ -217,7 +207,7 @@ h1,h2,h3,h4,h5{ /*all titles*/
         margin-top: 10px;
         text-decoration: none;
     }
-    
+
     #freccia{
         position: absolute;
         color: white;
@@ -225,12 +215,12 @@ h1,h2,h3,h4,h5{ /*all titles*/
         left: -40px;
         transform: rotate(-45deg);
     }
-    
+
     .dropdown-class{
         position: relative;
         display: inline-block;
     }
-    
+
     .dropdown-content-class{
         display: none;
         position: absolute;
@@ -240,11 +230,11 @@ h1,h2,h3,h4,h5{ /*all titles*/
         padding: 12px 16px;
         z-index: 1;
     }
-    
+
     #qm-form{
         display: none;
     }
-    
+
     .navbar-form{
         background-color: #222;
     }
@@ -276,7 +266,7 @@ h1,h2,h3,h4,h5{ /*all titles*/
     }
 
     .show {display:block;}
-    
+
     #myDrop:hover{
         background-image:url(../img/qm.png);
     }
@@ -284,7 +274,7 @@ h1,h2,h3,h4,h5{ /*all titles*/
     #myDrop:focus {
         background-image:url(../img/qm.png);
     }
-    
+
     #login{
         background-color: transparent;
         padding: 16px;
@@ -297,59 +287,59 @@ h1,h2,h3,h4,h5{ /*all titles*/
         right: 20px;
         display: inline-block;
     }
-    
+
     #login:hover{
         background-image: url(../img/ing.png);
     }
-    
+
     .navbar-default .nav li a{
         position: relative;
         right: 130px;
     }
-    
+
     #login-xs{
         display: none;
     }
-    
+
     #welcome-xs{
         display: none;
     }
-    
+
     #welc-xs-form{
         display: none;
     }
-    
+
     #myCarousel{
         position: relative;
         top: 50px;
     }
-    
+
     #news{
         position: relative;
         top: 50px;
     }
-    
+
     #accedi-xs, #prenota-xs, #guida-xs, #accedi-md, #prenota-md, #guida-md{
         display: none;
     }
-    
+
     #Smart, #Standard, #Premium{
         -webkit-transition: all ease .5s;
         -moz-transition: all ease .5s;
         transition: all ease .5s;
     }
-    
+
     #Smart:hover, #Standard:hover, #Premium:hover{
         box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
         -webkit-transition: all ease .5s;
         -moz-transition: all ease .5s;
         transition: all ease .5s;
     }
-    
+
     #Smart-xs, #Standard-xs, #Premium-xs, #Smart-md, #Standard-md, #Premium-md{
         display: none;
     }
-    
+
     .square-content{
         margin-right: 10px;
         position: relative;
@@ -359,15 +349,15 @@ h1,h2,h3,h4,h5{ /*all titles*/
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    
+
     #mobile{
         display: none;
     }
-    
+
     #dropdown-mob{
         display: none;
     }
-    
+
     #myDrop2 { /*scritta*/
         margin: auto;
         background-color: transparent;
@@ -381,20 +371,20 @@ h1,h2,h3,h4,h5{ /*all titles*/
         display: inline-block;
         text-decoration: none;
     }
-    
+
     .dropdown-content-form {
         background-color: #222;
         position: absolute;
         top: 40px;
         right: 0px;
         display: none;
-        height: 120px;
-        width: 150px;
+        height: 70px;
+        width: 105px;
         overflow: auto;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
-    
+
     .input-group a{
         position: relative;
         left: 15px;
@@ -402,7 +392,7 @@ h1,h2,h3,h4,h5{ /*all titles*/
         margin-top: 10px;
         text-decoration: none;
     }
-    
+
     #freccia{
         position: absolute;
         color: white;
@@ -410,11 +400,11 @@ h1,h2,h3,h4,h5{ /*all titles*/
         left: 60px;
         transform: rotate(-45deg);
     }
-    
+
     #qm-form{
         display: none;
     }
-    
+
     .navbar-form{
         background-color: #222;
     }
@@ -446,11 +436,11 @@ h1,h2,h3,h4,h5{ /*all titles*/
     }
 
     .show {display:block;}
-    
+
     #myDrop:hover{
         background-image:url(../img/qm.png);
     }
-    
+
     #login{
         background-color: transparent;
         padding: 16px;
@@ -463,120 +453,120 @@ h1,h2,h3,h4,h5{ /*all titles*/
         right: 20px;
         display: inline-block;
     }
-    
+
     #login:hover{
         background-image: url(../img/ing.png);
     }
-    
+
     .navbar-default .nav li a{
         margin: auto;
         position: relative;
         right: 30px;
     }
-    
+
     #login-xs{
         display: none;
     }
-    
+
     #welcome-xs{
         display: none;
     }
-    
+
     #welc-xs-form{
         display: none;
     }
-    
+
     #myCarousel{
         position: relative;
         top: 50px;
     }
-    
+
     #news{
         position: relative;
         top: 50px;
     }
-    
+
     .square-content{
         margin-right: 180px;
     }
-    
+
     #accedi-xs, #prenota-xs, #guida-xs, #accedi-md, #prenota-md, #guida-md{
         display: none;
     }
-    
+
     #accedi{
         margin-right: 200px;
         position: relative;
         left: 290px;
     }
-    
+
     #accedi-text{
         position: relative;
         left: 10%;
     }
-    
+
     #prenota{
         margin-right: 200px;
         position: relative;
         left: 290px;
     }
-    
+
     #prenota-text{
         position: relative;
         left: 10%;
     }
-    
+
     #guida{
         margin-right: 200px;
         position: relative;
         left: 290px;
     }
-    
+
     #guida-text{
         position: relative;
         left: 10%;
     }
-    
+
     #smart,#standard{
         position: relative;
         left: 110px;
     }
-    
+
     #premium{
         position: relative;
         left: 310px;
         padding-top: 50px;
     }
-    
+
     #Smart, #Standard, #Premium{
         -webkit-transition: all ease .5s;
         -moz-transition: all ease .5s;
         transition: all ease .5s;
     }
-    
+
     #Smart:hover, #Standard:hover, #Premium:hover{
         box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
         -webkit-transition: all ease .5s;
         -moz-transition: all ease .5s;
         transition: all ease .5s;
     }
-    
+
     #Smart-xs, #Standard-xs, #Premium-xs, #Smart-md, #Standard-md, #Premium-md{
         display: none;
     }
-    
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    
+
     #mobile{
         display: none;
     }
-    
+
     #dropdown-mob{
         display: none;
     }
-    
+
     #myDrop2 { /*scritta*/
         margin: auto;
         background-color: transparent;
@@ -590,20 +580,20 @@ h1,h2,h3,h4,h5{ /*all titles*/
         display: inline-block;
         text-decoration: none;
     }
-    
+
     .dropdown-content-form {
         background-color: #222;
         position: absolute;
         top: 40px;
         left: -25px;
         display: none;
-        height: 120px;
-        width: 150px;
+        height: 70px;
+        width: 105px;
         overflow: auto;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
-    
+
     #freccia{
         position: absolute;
         color: white;
@@ -611,7 +601,7 @@ h1,h2,h3,h4,h5{ /*all titles*/
         left: 90px;
         transform: rotate(-45deg);
     }
-    
+
     .input-group a{
         position: relative;
         left: 15px;
@@ -619,11 +609,11 @@ h1,h2,h3,h4,h5{ /*all titles*/
         margin-top: 10px;
         text-decoration: none;
     }
-    
+
     #qm-form{
         display: none;
     }
-    
+
     .navbar-form{
         background-color: #222;
     }
@@ -658,7 +648,7 @@ h1,h2,h3,h4,h5{ /*all titles*/
     }
 
     .show {display:block;}
-    
+
     #login{
         background-color: transparent;
         padding: 16px;
@@ -671,170 +661,170 @@ h1,h2,h3,h4,h5{ /*all titles*/
         right: 50px;
         display: inline-block;
     }
-    
+
     #login:hover{
         background-image: url(../img/ing.png);
     }
-    
+
     .navbar-nav{
         align-content: center;
     }
-    
+
     .navbar-default{
         height: 100px;
     }
-    
+
     .navbar-default .nav li a{
         margin: 0 1px;
     }
-  
+
     #myCarousel{
         position: relative;
         top: 100px;
     }
-    
+
     #news{
         position: relative;
         top: 130px;
         margin-bottom: 150px;
     }
-    
+
     #services{
         position: relative;
         top: 100px;
     }
-    
+
     #login-xs{
         display: none;
     }
-    
+
     #welcome-xs{
         display: none;
     }
-    
+
     #welc-xs-form{
         display:none;
     }
-    
+
     .square-content{
         margin-right: 180px;
     }
-    
+
     #fun-circle{
         position: relative;
         right: 5px;
     }
-    
+
     #accedi-xs, #prenota-xs, #guida-xs, #accedi-md, #prenota-md, #guida-md{
         display: none;
     }
-    
+
     #accedi{
         margin-right: 200px;
         position: relative;
         left: 180px;
     }
-    
+
     #accedi-xl{
         position: relative;
         right: 3px;
     }
-    
+
     #accedi-text{
         position: relative;
         left: 31%;
         margin-bottom: 70px;
     }
-    
+
     #prenota{
         margin-right: 200px;
         position: relative;
         left: 180px;
     }
-    
+
     #prenota-text{
         position: relative;
         left: 31%;
         margin-bottom: 70px;
     }
-    
+
     #prenota-xl{
         position: relative;
         right: 3px;
     }
-    
+
     #guida{
         margin-right: 200px;
         position: relative;
         left: 180px;
     }
-    
+
     #guida-text{
         position: relative;
         left: 31%;
     }
-    
+
     #guida-xl{
         position: relative;
         right: 8px;
     }
-    
+
     #smart,#standard{
         position: relative;
         left: 50px;
     }
-    
+
     #premium{
         position: relative;
         left: 230px;
         padding-top: 50px;
     }
-    
+
     #Smart, #Standard, #Premium{
         -webkit-transition: all ease .5s;
         -moz-transition: all ease .5s;
         transition: all ease .5s;
     }
-    
+
     #Smart:hover, #Standard:hover, #Premium:hover{
         box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
         -webkit-transition: all ease .5s;
         -moz-transition: all ease .5s;
         transition: all ease .5s;
     }
-    
+
     #Smart-xs, #Standard-xs, #Premium-xs, #Smart-md, #Standard-md, #Premium-md{
         display: none;
     }
-    
+
 }
 
 @media (max-width: 796px) {
-    
+
     #newsstaz{
         display: none;
     }
-    
+
 }
 
 @media (min-width: 100px) and (max-width: 767px) {
-    
+
     #dropdown-dsk{
         display: none;
     }
-    
+
     .navbar-form{
         border-color: none;
     }
-    
+
     #dropdown{
         display: none;
     }
-    
+
     #login{
         display: none;
     }
-    
+
     #myCarousel{
         display: none;
     }
@@ -842,128 +832,128 @@ h1,h2,h3,h4,h5{ /*all titles*/
     .featurette{
         text-align: center;
     }
-    
+
     .Map{
         position: relative;
         right: 10px;
     }
-    
+
     #contacts{
         position: relative;
         right: 20px;
     }
-    
+
     #checkbox{
         position: relative;
         top: 2px;
     }
-    
+
     #searching-xs{
         position: relative;
         top: 7px;
     }
-    
+
     #btn-check{
         background-image: url(../img/download.png);
         background-color: #222;
         padding: 16px;
     }
-    
+
     #welcome-xs{
         position: absolute;
         top: 50px;
     }
-    
+
     #welc-form{
         color: white;
     }
-    
+
     .square-content{
         margin-bottom: 20px;
     }
-    
+
     #accedi{
         margin-bottom: 70px;
     }
-    
+
     #accedi-md{
         position: relative;
         left: 3px;
     }
-    
+
     #prenota{
         margin-bottom: 70px;
     }
-    
+
     #guida-md{
         position: relative;
         left: 3px;
     }
-    
+
     #accedi-xl{
         display: none;
     }
-    
+
     #prenota-xl{
        display: none;
     }
-    
+
     #guida-xl{
         display: none;
     }
-    
+
     #Smart{
         display: none;
     }
-    
+
     #Standard{
         display: none;
     }
-    
+
     #Premium{
         display: none;
     }
-    
+
 }
 
 @media (min-width: 500px) and (max-width: 767px){
-    
+
     #accedi-xs, #prenota-xs, #guida-xs{
         display: none;
     }
-    
+
     #Smart-xs, #Standard-xs, #Premium-xs{
         display: none;
     }
-    
+
     #body{
         position: relative;
         bottom: 110px;
     }
-    
+
 }
 
 @media (min-width: 100px) and (max-width: 499px){
-    
+
     #welc-form{
         font-size: 30px;
         position: relative;
         bottom: 30px;
     }
-    
+
     #body{
         position: relative;
         bottom: 200px;
     }
-    
+
     #accedi-md, #prenota-md, #guida-md{
         display: none;
     }
-    
+
     #Smart-md, #Standard-md, #Premium-md{
         display: none;
     }
-    
+
 }
 
 section{ /*Only the section*/
