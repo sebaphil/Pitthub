@@ -2,12 +2,16 @@ header{
     text-align: center;
     color: #ffffff;
     background-attachment: scroll;
-    background-image: url(../img/aboutus.jpg);
+    background-image: url(../img/header-bg.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+}
+
+#lorem{
+    text-align: justify;
 }
 
 .intro-text{
@@ -59,12 +63,45 @@ header{
     border-radius: 0;
 }
 
-.panel-title{
-    color: rgb(242, 138, 0);
+.form-group .control-label{
+    font-size: 15px;
 }
 
-.panel-body >h1,h2,h3,h4,h5{
-    display: inline;
+p{
+    line-height: 33px;
+}
+
+#nameclient, #mailaddress, #fieldmessage{
+    padding: 20px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#buttonsubmit{
+    background-color: #cea532;
+    border: transparent;
+    text-transform: uppercase;
+}
+
+#buttonsubmit, #buttonsubmit:hover{
+    background-color: #cea532;
+    border: transparent;
+    text-transform: uppercase;
+}
+
+#buttonsubmit: active{
+    background-color: #c3d369;
+}
+
+
+.cnt{
+    text-align: center;
+}
+
+.inner{
+    display: inline-block;
+    text-align: center;
+    padding: 50px;
 }
 
 footer{

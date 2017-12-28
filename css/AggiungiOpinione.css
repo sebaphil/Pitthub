@@ -10,60 +10,6 @@ header{
     background-size: cover;
 }
 
-p {
-    line-height: 33px;
-}
-
-
-.star-ratings-sprite {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
-  font-size: 0;
-  height: 21px;
-  line-height: 0;
-  overflow: hidden;
-  text-indent: -999em;
-  width: 110px;
-  display: inline-block;
-
-  
-}
-.star-ratings-sprite-rating {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
-  background-position: 0 100%;
-  float: left;
-  height: 21px;
-  display:inline-block;
-  }
-
-
-.detailBox {
-    width:auto;
-    border:1px solid #bbb;
-    margin:50px;
-}
-.titleBox {
-    background-color:#fdfdfd;
-    padding:10px;
-}
-.titleBox label{
-  color:#444;
-  font-size:18px;
-  position: absolute;
-  margin-left: 5px;
-  display:inline-block;
-}
-
-.commentBox {
-    padding:10px;
-    border-top:1px solid #bbb;
-    background-color: #fff;
-}
-
-.taskDescription {
-    margin-top:10px 0;
-}
-
-
 .intro-text{
     padding-top: 100px;
     padding-bottom: 50px;
@@ -79,10 +25,9 @@ p {
 
 .intro-heading{
     margin-bottom: 25px;
-    text-shadow: 1px 1px #000000;
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -99,7 +44,7 @@ p {
         font-style: italic;
         line-height: 40px;
     }
-
+    
     .intro-heading{
         margin-bottom: 50px;
         font-size: 75px;
@@ -109,23 +54,39 @@ p {
     
 }
 
-
 .breadcrumb{
     background: #222;
     border-radius: 0;
 }
 
-.panel-title{
-    color: rgb(242, 138, 0);
+.form-group .control-label{
+    font-size: 15px;
 }
 
-.panel-body >h1,h2,h3,h4,h5{
-    display: inline-flex;
-    margin: auto;
+p{
+    line-height: 33px;
 }
 
-.panel{
-    margin-top: 50px;
+#nameclient, #mailaddress, #fieldmessage{
+    padding: 20px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#buttonsubmit{
+    background-color: #cea532;
+    border: transparent;
+    text-transform: uppercase;
+}
+
+#buttonsubmit, #buttonsubmit:hover{
+    background-color: #cea532;
+    border: transparent;
+    text-transform: uppercase;
+}
+
+#buttonsubmit: active{
+    background-color: #c3d369;
 }
 
 
@@ -139,3 +100,56 @@ p {
     padding: 50px;
 }
 
+footer{
+  height: 50%;
+  clear: both;
+}
+
+.acidjs-rating-stars,
+.acidjs-rating-stars label::before
+{
+    display: inline-block;
+}
+ 
+.acidjs-rating-stars label:hover,
+.acidjs-rating-stars label:hover ~ label
+{
+    color: #189800;
+}
+ 
+.acidjs-rating-stars *
+{
+    margin: 0;
+    padding: 0;
+}
+ 
+.acidjs-rating-stars input
+{
+    display: none;
+}
+ 
+.acidjs-rating-stars
+{
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+ 
+.acidjs-rating-stars label
+{
+    color: #ccc;
+}
+ 
+.acidjs-rating-stars label::before
+{
+    content: "\2605";
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+ 
+.acidjs-rating-stars input:checked ~ label
+{
+    color: #f5b301;
+}
