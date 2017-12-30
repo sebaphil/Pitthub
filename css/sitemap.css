@@ -65,7 +65,6 @@ header{
 }
 
 html{
-	height:100%;
 }
 
 body{
@@ -74,9 +73,10 @@ body{
 	padding-bottom: 4em;
 }
 
-.footer{
-	position: absolute;
+footer{
+	position: fixed;
 	height: 4em;
 	clear: both;
 	width: 100%;
+	bottom: 0;
 }
