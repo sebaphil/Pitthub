@@ -114,6 +114,12 @@ h1,h2,h3,h4,h5{ /*all titles*/
     margin-bottom: 10%;
 }
 
+#title-caption-1{
+}
+
+#title-caption-3{
+}
+
 #news-box{
     height: auto;
     width: auto;
@@ -193,8 +199,8 @@ h1,h2,h3,h4,h5{ /*all titles*/
         top: 40px;
         right: 100px;
         display: none;
-        height: 70px;
-        width: 105px;
+        height: 90px;
+        width: 100px;
         overflow: auto;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
