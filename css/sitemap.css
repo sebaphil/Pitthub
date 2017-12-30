@@ -75,8 +75,8 @@ body{
 
 footer{
 	position: fixed;
-	height: 4em;
 	clear: both;
 	width: 100%;
 	bottom: 0;
+	height: 7em;
 }
